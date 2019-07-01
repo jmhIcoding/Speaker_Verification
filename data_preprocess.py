@@ -8,9 +8,9 @@ from utils import keyword_spot
 config = get_config()   # get arguments from parser
 
 # downloaded dataset path
-audio_path= r'C:\Users\LG\Documents\DataSets\Vctk\data'                                          # utterance dataset
-clean_path = r'C:\Users\LG\Documents\Deep_learning\speaker_vertification\clean_testset_wav'  # clean dataset
-noisy_path = r'C:\Users\LG\Documents\Deep_learning\speaker_vertification\noisy_testset_wav'  # noisy dataset
+audio_path= r'G:\DS_10283_2651\VCTK_Corpus\VCTK_Corpus\wav48'                                         # utterance dataset
+clean_path = r'G:\DS_10283_2651\VCTK_Corpus\VCTK_Corpus\clean_testset_wav\clean_testset_wav'  # clean dataset
+noisy_path = r'G:\DS_10283_2651\VCTK_Corpus\VCTK_Corpus\noisy_testset_wav\noisy_testset_wav'  # noisy dataset
 
 
 def extract_noise():
